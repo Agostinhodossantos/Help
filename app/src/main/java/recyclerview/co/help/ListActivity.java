@@ -1,6 +1,7 @@
 package recyclerview.co.help;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.widget.ExpandableListView;
@@ -20,6 +21,12 @@ public class ListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("Ajuda");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         expandableListView = findViewById(R.id.expandeble_listview);
         listGroup = new ArrayList<>();

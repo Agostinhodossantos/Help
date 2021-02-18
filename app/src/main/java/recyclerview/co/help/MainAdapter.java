@@ -1,6 +1,7 @@
 package recyclerview.co.help;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -93,6 +94,14 @@ public class MainAdapter extends BaseExpandableListAdapter {
 
         TextView textView = convertView.findViewById(R.id.list_child);
         textView.setText(child);
+
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =  new Intent(context , VideoActivity.class);
+                context.startActivity(intent);
+            }
+        });
 
 
 
