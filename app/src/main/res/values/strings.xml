@@ -1,36 +1,38 @@
 <resources>
     <string name="app_name">Help</string>
     <string name="action_settings">Settings</string>
-    <string name="group1">Group1</string>
-    <string name="group2">Group2</string>
-    <string name="group3">Group3</string>
-    <string name="group4">Group4</string>
-    <string name="group5">Group5</string>
+    <string name="group1">Vendas</string>
+    <string name="group2">Entrega</string>
+    <string name="group3">Cancelamento</string>
+    <string name="group4">Levantamento</string>
+    <string name="group5">Outros</string>
 
     <string-array name="group1">
-        <item>item1</item>
+        <item>Como vender no smart shop</item>
+        <item>Como vender no smart shop</item>
+        <item>Como vender no smart shop</item>
     </string-array>
 
     <string-array name="group2">
-        <item>item1</item>
-        <item>item2</item>
+        <item>Como deletar meu produto no smart shop</item>
+        <item>Como deletar meu produto no smart shop</item>
     </string-array>
 
     <string-array name="group3">
-        <item>item1</item>
-        <item>item2</item>
+        <item>Como vender no smart shop</item>
+        <item>Como vender no smart shop</item>
     </string-array>
 
     <string-array name="group4">
-        <item>item1</item>
-        <item>item2</item>
+        <item>Como deletar meu produto no smart shop</item>
+        <item>Como deletar meu produto no smart shop</item>
+        <item>Como deletar meu produto no smart shop</item>
     </string-array>
 
     <string-array name="group5">
-        <item>item1</item>
-        <item>item2</item>
-        <item>item3</item>
-        <item>item4</item>
+        <item>Como deletar meu produto no smart shop</item>
+        <item>Como deletar meu produto no smart shop</item>
+        <item>Como deletar meu produto no smart shop</item>
     </string-array>
 
 </resources>

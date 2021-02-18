@@ -7,6 +7,12 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener;
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
+
 import org.w3c.dom.Text;
 
 import java.util.HashMap;
@@ -87,6 +93,9 @@ public class MainAdapter extends BaseExpandableListAdapter {
 
         TextView textView = convertView.findViewById(R.id.list_child);
         textView.setText(child);
+
+
+
         return convertView;
     }
 
@@ -94,4 +103,5 @@ public class MainAdapter extends BaseExpandableListAdapter {
     public boolean isChildSelectable(int i, int i1) {
         return true;
     }
+
 }
